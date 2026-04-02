@@ -1,27 +1,16 @@
-# Blogger Marketplace — Hero Swiper
+# React + Vite
 
-O'zbekistoning eng yirik Bloger Marketplace uchun React hero swiper komponenti.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## O'rnatish
+Currently, two official plugins are available:
 
-```bash
-npm install
-npm run dev
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Fayllar
+## React Compiler
 
-- `src/HeroSwiper.jsx` — Asosiy swiper komponenti
-- `src/HeroSwiper.css` — Stillar
-- `src/App.jsx` — Demo sahifa
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Xususiyatlar
+## Expanding the ESLint configuration
 
-- 3 ta slayd (qizil, dark blue, to'q sariq)
-- Auto-play (4.5 soniya)
-- Progress bar
-- Oldingi/keyingi tugmalar
-- Pagination nuqtalari
-- Hover qilganda pauza
-- Mobile swipe qo'llab-quvvatlash
-- Responsive dizayn
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
